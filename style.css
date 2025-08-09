@@ -84,9 +84,9 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    color: #e5e7eb;
+    color: darkgray;
     width: 50%;
-    background-color: #7f838a;
+    background-color: #e5e7eb;
     width: 500px;
     height: 250px;
 }

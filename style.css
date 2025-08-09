@@ -128,3 +128,85 @@ body{
 .info-text{
     text-align: center;
 }
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: 'light italic';
+    color: #1f2937;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote{
+    width: 800px;
+}
+
+.quote-speaker{
+    width: fit-content;
+    padding-left: 30%;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.call-to-action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color: white;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 300px;
+    border-radius: 10px;
+}
+
+.call-to-action-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 4px;
+}
+
+.call-to-action-text h2, p{
+    margin: 0;
+}
+
+.call-to-action button{
+    height: fit-content;
+    width: fit-content;
+    background-color: #3882f6;
+    color: white;
+    border: solid, 3px, white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.call-to-action button h2{
+    margin: 0;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 18px;
+}
